@@ -1,7 +1,19 @@
 {
-  "name": "desafio-b2w",
+  "name": "desafio-starwars",
   "version": "0.1.0",
   "private": true,
+  "description": "Website que exibe dados dos planetas do universo de Star Wars",
+  "author": "Ricardo Brambila",
+  "license": "MIT",
+  "homepage": "https://github.com/ricardo-jsx/desafio-starwars#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ricardo-jsx/desafio-starwars.git"
+  },
+  "engines": {
+    "npm": ">=5.5.0",
+    "node": ">=9.3.0"
+  },
   "dependencies": {
     "prop-types": "^15.7.2",
     "react": "^16.8.6",
