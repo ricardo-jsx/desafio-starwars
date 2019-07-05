@@ -13,17 +13,15 @@ const Star = (props) => (
 );
 
 Star.propTypes = {
-  animationDelay: PropTypes.oneOf(['1s', '2s', '3s']),
-  size: PropTypes.oneOf(['SMALL', 'MEDIUM', 'BIG']),
-  left: PropTypes.number,
-  right: PropTypes.number,
+  animationDelay: PropTypes.oneOf(['0s', '1s', '2s']),
+  leftPosition: PropTypes.number,
+  topPosition: PropTypes.number,
 };
 
 Star.defaultProps = {
-  animationDelay: '1s',
-  size: 'MEDIUM',
-  left: 0,
-  right: 0,
+  animationDelay: '0s',
+  leftPosition: 0,
+  topPosition: 0,
 };
 
 export default Star;
