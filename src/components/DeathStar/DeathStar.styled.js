@@ -3,7 +3,7 @@ import styled, { keyframes } from 'styled-components';
 const darkColor = '#262626';
 const lightColor = '#efefed';
 
-export const float = keyframes`
+const float = keyframes`
   0%    { transform: translateY(0) }
   50%   { transform: translateY(-20px) }
   100%  { transform: translateY(0) }
