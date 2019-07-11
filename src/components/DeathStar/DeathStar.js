@@ -1,13 +1,16 @@
 import React from 'react';
 
-import { Container, BodyShadow, Circle, LeftTrait, RightTrait } from './DeathStar.styled';
+import { Container } from './DeathStar.styled';
 
 const DeathStar = () => (
   <Container>
-    <BodyShadow />
-    <Circle />
-    <LeftTrait />
-    <RightTrait />
+    <div className="circle">
+      <div className="line line1" />
+      <div className="line line2" />
+      <div className="line line3" />
+      <div className="line line4" />
+    </div>
+    <div className="trait" />
   </Container>
 );
 
