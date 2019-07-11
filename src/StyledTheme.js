@@ -2,7 +2,7 @@ import React from 'react';
 import { createGlobalStyle, ThemeProvider } from 'styled-components';
 
 const theme = {
-  fontFamily: 'Star Jedi Hollow',
+  fontFamily: 'Star Jedi',
   darkColor: '#262626',
   lightColor: '#efefed',
   orangeColor: '#f6ae2d',
@@ -10,9 +10,9 @@ const theme = {
 
 const GlobalStyle = createGlobalStyle`
   @font-face {
-    font-family: 'Star Jedi Hollow';
-    src: url('/fonts/StarJediHollow.woff2') format('woff2'),
-        url('/fonts/StarJediHollow.woff') format('woff');
+    font-family: 'Star Jedi';
+    src: url('/fonts/StarJedi.woff2') format('woff2'),
+        url('/fonts/StarJedi.woff') format('woff');
     font-weight: normal;
     font-style: normal;
   }
