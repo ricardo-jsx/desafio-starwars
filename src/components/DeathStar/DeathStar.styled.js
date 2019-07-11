@@ -11,7 +11,15 @@ const spin = keyframes`
   100%   { transform: translateX(900px) }
 `;
 
-export const Container = styled.div`
+export const Container = styled.main`
+  position: relative;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-family: ${(props) => props.theme.fontFamily};
+`;
+
+export const DeathStarContainer = styled.div`
   background: #d9d9d9;
   position: absolute;
   width: 600px;
@@ -21,7 +29,6 @@ export const Container = styled.div`
   overflow: hidden;
   animation: ${float} 3s linear infinite;
   transform-origin: 50% 50%;
-  font-family: ${(props) => props.theme.fontFamily};
   font-weight: normal;
   font-style: normal;
   left: 0;
@@ -94,5 +101,22 @@ export const Container = styled.div`
         transform: rotate(90deg);
       }
     }
+  }
+`;
+
+export const MovieContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  padding-top: 6em;
+
+  h1 {
+    font-size: 48px;
+    margin-bottom: 0;
+  }
+
+  label {
+    font-size: 24px;
   }
 `;
