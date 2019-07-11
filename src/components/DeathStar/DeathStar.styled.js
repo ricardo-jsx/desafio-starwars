@@ -1,8 +1,5 @@
 import styled, { keyframes } from 'styled-components';
 
-const darkColor = '#262626';
-const lightColor = '#efefed';
-
 const float = keyframes`
   0%    { transform: translateY(0) }
   50%   { transform: translateY(-20px) }
@@ -10,7 +7,7 @@ const float = keyframes`
 `;
 
 export const Container = styled.div`
-  background: ${lightColor};
+  background: ${(props) => props.theme.lightColor};
   position: relative;
   width: 600px;
   height: 600px;
@@ -18,10 +15,13 @@ export const Container = styled.div`
   overflow: hidden;
   animation: ${float} 3s linear infinite;
   transform-origin: 50% 50%;
+  font-family: ${(props) => props.theme.fontFamily};
+  font-weight: normal;
+  font-style: normal;
 `;
 
 export const BodyShadow = styled.div`
-  background: ${darkColor};
+  background: ${(props) => props.theme.darkColor};
   position: absolute;
   width: 760px;
   height: 800px;
@@ -31,7 +31,7 @@ export const BodyShadow = styled.div`
 `;
 
 export const Circle = styled.div`
-  background: ${darkColor};
+  background: ${(props) => props.theme.darkColor};
   position: absolute;
   right: 80px;
   width: 120px;
@@ -41,7 +41,7 @@ export const Circle = styled.div`
   &::after {
     content: '';
     display: block;
-    background: ${lightColor};
+    background: ${(props) => props.theme.lightColor};
     border-radius: 50%;
     position: absolute;
     top: 50%;
@@ -59,12 +59,12 @@ const Trait = styled.div`
 `;
 
 export const LeftTrait = styled(Trait)`
-  background: ${lightColor};
+  background: ${(props) => props.theme.lightColor};
   width: 100%;
 `;
 
 export const RightTrait = styled(Trait)`
-  background: ${darkColor};
+  background: ${(props) => props.theme.darkColor};
   right: 0;
   width: 181px;
 `;

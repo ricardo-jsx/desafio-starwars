@@ -1,9 +1,12 @@
+import React from 'react';
+import StyledTheme from '../src/StyledTheme';
 import { configure, addDecorator, addParameters } from '@storybook/react';
 import { withA11y } from '@storybook/addon-a11y';
 import { INITIAL_VIEWPORTS as viewports } from '@storybook/addon-viewport';
 
 addDecorator(withA11y);
 addParameters({ viewport: { viewports } });
+addDecorator((s) => <StyledTheme>{s()}</StyledTheme>);
 
 const req = require.context('../src/components', true, /\.stories\.js$/);
 
