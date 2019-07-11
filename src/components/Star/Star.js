@@ -3,14 +3,7 @@ import PropTypes from 'prop-types';
 
 import { StarContainer } from './Star.styled';
 
-const Star = (props) => (
-  <StarContainer {...props}>
-    <div className="circle circle-top circle-left" />
-    <div className="circle circle-top circle-right" />
-    <div className="circle circle-bottom circle-left" />
-    <div className="circle circle-bottom circle-right" />
-  </StarContainer>
-);
+const Star = (props) => <StarContainer {...props} />;
 
 Star.propTypes = {
   animationDelay: PropTypes.oneOf(['0s', '1s', '2s']),

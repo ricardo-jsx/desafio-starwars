@@ -7,37 +7,24 @@ export const pulse = keyframes`
 `;
 
 export const StarContainer = styled.div`
-  background: #757f95;
-  width: 32px;
-  height: 32px;
-  position: absolute;
-  overflow: hidden;
-  animation: ${pulse} 2s linear infinite;
-  animation-delay: ${(props) => props.animationDelay};
+  width: 0;
+  height: 0;
+  border: 10px solid transparent;
+  border-bottom: 14px solid #f6ae2d;
+  position: relative;
   top: ${(props) => props.topPosition + 'px'};
   left: ${(props) => props.leftPosition + 'px'};
+  animation: ${pulse} 2s linear infinite;
+  animation-delay: ${(props) => props.animationDelay};
 
-  .circle {
-    height: 32px;
-    width: 32px;
+  &::after {
+    content: '';
     position: absolute;
-    background: #262626;
-    border-radius: 50%;
-
-    &.circle-top {
-      top: -50%;
-    }
-
-    &.circle-bottom {
-      bottom: -50%;
-    }
-
-    &.circle-left {
-      left: -50%;
-    }
-
-    &.circle-right {
-      right: -50%;
-    }
+    left: -10px;
+    top: 14px;
+    width: 0;
+    height: 0;
+    border: 10px solid transparent;
+    border-top: 14px solid #f6ae2d;
   }
 `;

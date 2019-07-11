@@ -7,7 +7,6 @@ import Star from '../Star';
 import useStars from '../../hooks/useStars';
 
 const Sky = ({ starsCount, widthSize, heightSize }) => {
-  console.log(widthSize, heightSize);
   const stars = useStars(starsCount, [0, widthSize], [0, heightSize]);
 
   return (
