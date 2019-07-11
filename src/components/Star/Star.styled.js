@@ -11,7 +11,7 @@ export const StarContainer = styled.div`
   height: 0;
   border: 10px solid transparent;
   border-bottom: 14px solid #f6ae2d;
-  position: relative;
+  position: absolute;
   top: ${(props) => props.topPosition + 'px'};
   left: ${(props) => props.leftPosition + 'px'};
   animation: ${pulse} 2s linear infinite;

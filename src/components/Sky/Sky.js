@@ -6,7 +6,7 @@ import Star from '../Star';
 
 import useStars from '../../hooks/useStars';
 
-const Sky = ({ starsCount, widthSize, heightSize }) => {
+const Sky = ({ children, starsCount, widthSize, heightSize }) => {
   const stars = useStars(starsCount, [0, widthSize], [0, heightSize]);
 
   return (
@@ -14,19 +14,22 @@ const Sky = ({ starsCount, widthSize, heightSize }) => {
       {stars.map((star) => (
         <Star {...star} />
       ))}
+      {children}
     </SkyContainer>
   );
 };
 
 Sky.propTypes = {
+  children: PropTypes.node,
   starsCount: PropTypes.number.isRequired,
   widthSize: PropTypes.number,
   heightSize: PropTypes.number,
 };
 
 Sky.defaultProps = {
-  widthSize: 1000,
-  heightSize: 500,
+  children: null,
+  widthSize: window.innerWidth,
+  heightSize: window.innerHeight,
 };
 
 export default Sky;

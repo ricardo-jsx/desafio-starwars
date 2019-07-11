@@ -8,9 +8,10 @@ const float = keyframes`
 
 export const Container = styled.div`
   background: ${(props) => props.theme.lightColor};
-  position: relative;
+  position: absolute;
   width: 600px;
   height: 600px;
+  border: 16px solid black;
   border-radius: 50%;
   overflow: hidden;
   animation: ${float} 3s linear infinite;
@@ -18,6 +19,11 @@ export const Container = styled.div`
   font-family: ${(props) => props.theme.fontFamily};
   font-weight: normal;
   font-style: normal;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
 `;
 
 export const BodyShadow = styled.div`

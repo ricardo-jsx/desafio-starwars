@@ -16,6 +16,16 @@ const GlobalStyle = createGlobalStyle`
     font-weight: normal;
     font-style: normal;
   }
+
+  body {
+    overflow: hidden;
+    margin: 0;
+  }
+
+  #root {
+    max-width: 100%;
+    max-height: 100%;
+  }
 `;
 
 const StyledTheme = ({ children }) => (
