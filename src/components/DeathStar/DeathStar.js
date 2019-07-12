@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Container, DeathStarContainer, MovieContainer } from './DeathStar.styled';
+import { DeathStarContainer, MovieContainer } from './DeathStar.styled';
 
 const DeathStar = ({ children }) => (
   <DeathStarContainer>
