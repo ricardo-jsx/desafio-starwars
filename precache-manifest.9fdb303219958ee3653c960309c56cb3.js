@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b7394886c973b0e574c56b66e941627d",
+    "revision": "741a5abb135f6138b25e79f77569356a",
     "url": "/desafio-starwars/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/desafio-starwars/static/js/2.f691018a.chunk.js"
   },
   {
-    "revision": "80ebd0f41a368c9c1ce8",
-    "url": "/desafio-starwars/static/js/main.0cd5e64c.chunk.js"
+    "revision": "1abef8a8ff65c8a18aef",
+    "url": "/desafio-starwars/static/js/main.510ddae2.chunk.js"
   },
   {
     "revision": "030a7145ab92acb94c02",

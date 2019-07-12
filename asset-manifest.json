@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.js": "/desafio-starwars/static/js/main.0cd5e64c.chunk.js",
-    "main.js.map": "/desafio-starwars/static/js/main.0cd5e64c.chunk.js.map",
+    "main.js": "/desafio-starwars/static/js/main.510ddae2.chunk.js",
+    "main.js.map": "/desafio-starwars/static/js/main.510ddae2.chunk.js.map",
     "runtime~main.js": "/desafio-starwars/static/js/runtime~main.ae2dd16d.js",
     "runtime~main.js.map": "/desafio-starwars/static/js/runtime~main.ae2dd16d.js.map",
     "static/js/2.f691018a.chunk.js": "/desafio-starwars/static/js/2.f691018a.chunk.js",
     "static/js/2.f691018a.chunk.js.map": "/desafio-starwars/static/js/2.f691018a.chunk.js.map",
     "index.html": "/desafio-starwars/index.html",
-    "precache-manifest.5fa4c37b0a08c005b6fa1b6a4380691f.js": "/desafio-starwars/precache-manifest.5fa4c37b0a08c005b6fa1b6a4380691f.js",
+    "precache-manifest.9fdb303219958ee3653c960309c56cb3.js": "/desafio-starwars/precache-manifest.9fdb303219958ee3653c960309c56cb3.js",
     "service-worker.js": "/desafio-starwars/service-worker.js"
   }
 }
