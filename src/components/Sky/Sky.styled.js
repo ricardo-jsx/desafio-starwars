@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 
 export const SkyContainer = styled.div`
+  position: fixed;
   background: ${(props) => props.theme.darkColor};
   width: ${(props) => props.widthSize + 'px'};
   height: ${(props) => props.heightSize + 'px'};

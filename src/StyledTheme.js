@@ -18,13 +18,16 @@ const GlobalStyle = createGlobalStyle`
   }
 
   body {
+    width: 100vw;
+    height: 100vh;
     overflow: hidden;
     margin: 0;
   }
 
   #root {
-    max-width: 100%;
-    max-height: 100%;
+    position: relative;
+    width: 100%;
+    height: 100%;
   }
 `;
 

@@ -11,14 +11,6 @@ const spin = keyframes`
   100%   { transform: translateX(900px) }
 `;
 
-export const Container = styled.main`
-  position: relative;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  font-family: ${(props) => props.theme.fontFamily};
-`;
-
 export const DeathStarContainer = styled.div`
   background: #d9d9d9;
   position: absolute;
@@ -36,6 +28,7 @@ export const DeathStarContainer = styled.div`
   top: 0;
   bottom: 0;
   margin: auto;
+  font-family: ${(props) => props.theme.fontFamily};
 
   &::before {
     content: '';
