@@ -1,13 +1,16 @@
 {
   "files": {
-    "main.js": "/desafio-starwars/static/js/main.510ddae2.chunk.js",
-    "main.js.map": "/desafio-starwars/static/js/main.510ddae2.chunk.js.map",
+    "main.js": "/desafio-starwars/static/js/main.0bcada5d.chunk.js",
+    "main.js.map": "/desafio-starwars/static/js/main.0bcada5d.chunk.js.map",
     "runtime~main.js": "/desafio-starwars/static/js/runtime~main.ae2dd16d.js",
     "runtime~main.js.map": "/desafio-starwars/static/js/runtime~main.ae2dd16d.js.map",
-    "static/js/2.f691018a.chunk.js": "/desafio-starwars/static/js/2.f691018a.chunk.js",
-    "static/js/2.f691018a.chunk.js.map": "/desafio-starwars/static/js/2.f691018a.chunk.js.map",
+    "static/js/2.a0d86b25.chunk.js": "/desafio-starwars/static/js/2.a0d86b25.chunk.js",
+    "static/js/2.a0d86b25.chunk.js.map": "/desafio-starwars/static/js/2.a0d86b25.chunk.js.map",
     "index.html": "/desafio-starwars/index.html",
-    "precache-manifest.9fdb303219958ee3653c960309c56cb3.js": "/desafio-starwars/precache-manifest.9fdb303219958ee3653c960309c56cb3.js",
-    "service-worker.js": "/desafio-starwars/service-worker.js"
+    "precache-manifest.d09d68982a113360d10eb8568b19330e.js": "/desafio-starwars/precache-manifest.d09d68982a113360d10eb8568b19330e.js",
+    "service-worker.js": "/desafio-starwars/service-worker.js",
+    "static/media/StarJedi.woff": "/desafio-starwars/static/media/StarJedi.972105bf.woff",
+    "static/media/StarJedi.woff2": "/desafio-starwars/static/media/StarJedi.a4eaedfe.woff2",
+    "static/media/StarJedi.ttf": "/desafio-starwars/static/media/StarJedi.cc3019aa.ttf"
   }
 }
