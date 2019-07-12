@@ -117,6 +117,6 @@ export const MovieContainer = styled.div`
   }
 
   label {
-    font-size: 24px;
+    font-size: 18px;
   }
 `;
