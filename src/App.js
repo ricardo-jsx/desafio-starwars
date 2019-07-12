@@ -7,7 +7,7 @@ import DeathStar from './components/DeathStar';
 import useSwapi from './hooks/useSwapi';
 
 const App = () => {
-  const { planet, loading } = useSwapi();
+  const { planet, loading, getNextPlanet } = useSwapi();
 
   return (
     <StyledTheme>
@@ -20,6 +20,7 @@ const App = () => {
           <DeathStar.Label>Featured in {planet.films.length} movies</DeathStar.Label>
         </DeathStar>
       </Sky>
+      <button onClick={getNextPlanet}>Next Planet</button>
     </StyledTheme>
   );
 };

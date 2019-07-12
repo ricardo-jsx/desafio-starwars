@@ -6,23 +6,34 @@ export default function() {
   const [planetCount, setPlanetCount] = useState(0);
   const [planet, setCurrentPlanet] = useState({ films: [] });
 
-  // const getRandomPlanet = Math.ceil(Math.random() * planetCount);
+  const getRandomPlanet = () => Math.ceil(Math.random() * planetCount) || '';
+
+  const fetchData = async () => {
+    setLoading(true);
+    return axios(`https://swapi.co/api/planets/${getRandomPlanet()}`).then((result) => {
+      setLoading(false);
+      return result;
+    });
+  };
+
+  const getInitialPlanet = async () => {
+    const result = await fetchData();
+    setPlanetCount(result.data.count);
+    setCurrentPlanet(result.data.results[0]);
+  };
+
+  const getNextPlanet = async () => {
+    const result = await fetchData();
+    setCurrentPlanet(result.data);
+  };
 
   useEffect(() => {
-    const fetchData = async () => {
-      setLoading(true);
-      const result = await axios(`https://swapi.co/api/planets`);
-      setLoading(false);
-
-      setPlanetCount(result.data.count);
-      setCurrentPlanet(result.data.results[0]);
-    };
-
-    fetchData();
+    getInitialPlanet();
   }, []);
 
   return {
     planet,
     loading,
+    getNextPlanet,
   };
 }
