@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.js": "/ricardo-jsx/desafio-starwars/static/js/main.ffe5275a.chunk.js",
-    "main.js.map": "/ricardo-jsx/desafio-starwars/static/js/main.ffe5275a.chunk.js.map",
-    "runtime~main.js": "/ricardo-jsx/desafio-starwars/static/js/runtime~main.5cf65880.js",
-    "runtime~main.js.map": "/ricardo-jsx/desafio-starwars/static/js/runtime~main.5cf65880.js.map",
-    "static/js/2.da364e4d.chunk.js": "/ricardo-jsx/desafio-starwars/static/js/2.da364e4d.chunk.js",
-    "static/js/2.da364e4d.chunk.js.map": "/ricardo-jsx/desafio-starwars/static/js/2.da364e4d.chunk.js.map",
-    "index.html": "/ricardo-jsx/desafio-starwars/index.html",
-    "precache-manifest.196d5a8db11ad6b4e4ce96c9bc04430d.js": "/ricardo-jsx/desafio-starwars/precache-manifest.196d5a8db11ad6b4e4ce96c9bc04430d.js",
-    "service-worker.js": "/ricardo-jsx/desafio-starwars/service-worker.js"
+    "main.js": "/desafio-starwars/static/js/main.0cd5e64c.chunk.js",
+    "main.js.map": "/desafio-starwars/static/js/main.0cd5e64c.chunk.js.map",
+    "runtime~main.js": "/desafio-starwars/static/js/runtime~main.ae2dd16d.js",
+    "runtime~main.js.map": "/desafio-starwars/static/js/runtime~main.ae2dd16d.js.map",
+    "static/js/2.f691018a.chunk.js": "/desafio-starwars/static/js/2.f691018a.chunk.js",
+    "static/js/2.f691018a.chunk.js.map": "/desafio-starwars/static/js/2.f691018a.chunk.js.map",
+    "index.html": "/desafio-starwars/index.html",
+    "precache-manifest.5fa4c37b0a08c005b6fa1b6a4380691f.js": "/desafio-starwars/precache-manifest.5fa4c37b0a08c005b6fa1b6a4380691f.js",
+    "service-worker.js": "/desafio-starwars/service-worker.js"
   }
 }
