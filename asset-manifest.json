@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.js": "/ricardo-jsx/desafio-starwars/static/js/main.ffe5275a.chunk.js",
+    "main.js.map": "/ricardo-jsx/desafio-starwars/static/js/main.ffe5275a.chunk.js.map",
+    "runtime~main.js": "/ricardo-jsx/desafio-starwars/static/js/runtime~main.5cf65880.js",
+    "runtime~main.js.map": "/ricardo-jsx/desafio-starwars/static/js/runtime~main.5cf65880.js.map",
+    "static/js/2.da364e4d.chunk.js": "/ricardo-jsx/desafio-starwars/static/js/2.da364e4d.chunk.js",
+    "static/js/2.da364e4d.chunk.js.map": "/ricardo-jsx/desafio-starwars/static/js/2.da364e4d.chunk.js.map",
+    "index.html": "/ricardo-jsx/desafio-starwars/index.html",
+    "precache-manifest.196d5a8db11ad6b4e4ce96c9bc04430d.js": "/ricardo-jsx/desafio-starwars/precache-manifest.196d5a8db11ad6b4e4ce96c9bc04430d.js",
+    "service-worker.js": "/ricardo-jsx/desafio-starwars/service-worker.js"
+  }
+}
