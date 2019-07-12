@@ -1,6 +1,10 @@
 import React from 'react';
 import { createGlobalStyle, ThemeProvider } from 'styled-components';
 
+import StarJedi_woff from './fonts/StarJedi.woff';
+import StarJedi_woff2 from './fonts/StarJedi.woff2';
+import StarJedi_ttf from './fonts/StarJedi.ttf';
+
 const theme = {
   fontFamily: 'Star Jedi',
   darkColor: '#262626',
@@ -11,9 +15,9 @@ const theme = {
 const GlobalStyle = createGlobalStyle`
   @font-face {
     font-family: 'Star Jedi';
-    src: url('./fonts/StarJedi.woff2') format('woff2'),
-        url('./fonts/StarJedi.woff') format('woff'),
-        url('./fonts/StarJedi.ttf') format('truetype');
+    src: url(${StarJedi_woff2}) format('woff2'),
+        url(${StarJedi_woff}) format('woff'),
+        url(${StarJedi_ttf}) format('truetype');
     font-weight: normal;
     font-style: normal;
   }
