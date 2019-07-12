@@ -11,8 +11,9 @@ const theme = {
 const GlobalStyle = createGlobalStyle`
   @font-face {
     font-family: 'Star Jedi';
-    src: url('/fonts/StarJedi.woff2') format('woff2'),
-        url('/fonts/StarJedi.woff') format('woff');
+    src: url('./fonts/StarJedi.woff2') format('woff2'),
+        url('./fonts/StarJedi.woff') format('woff'),
+        url('./fonts/StarJedi.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
   }
