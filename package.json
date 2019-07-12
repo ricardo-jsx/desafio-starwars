@@ -5,7 +5,7 @@
   "description": "Website que exibe dados dos planetas do universo de Star Wars",
   "author": "Ricardo Brambila",
   "license": "MIT",
-  "homepage": "https://github.com/ricardo-jsx/desafio-starwars#readme",
+  "homepage": "https://github.com/ricardo-jsx/desafio-starwars",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ricardo-jsx/desafio-starwars.git"
@@ -20,8 +20,7 @@
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-scripts": "3.0.1",
-    "styled-components": "^4.3.2",
-    "use-media": "^1.3.0"
+    "styled-components": "^4.3.2"
   },
   "devDependencies": {
     "@storybook/addon-a11y": "^5.1.9",
@@ -47,7 +46,9 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 9009 -s public",
-    "build-storybook": "build-storybook -s public"
+    "build-storybook": "build-storybook -s public",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
