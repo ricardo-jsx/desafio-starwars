@@ -3,6 +3,7 @@ import React from 'react';
 import StyledTheme from './StyledTheme';
 import Sky from './components/Sky';
 import DeathStar from './components/DeathStar';
+import { PlanetA } from './components/Planets';
 
 import useSwapi from './hooks/useSwapi';
 
@@ -19,8 +20,10 @@ const App = () => {
           <DeathStar.Label>Terrain: {planet.terrain}</DeathStar.Label>
           <DeathStar.Label>Featured in {planet.films.length} movies</DeathStar.Label>
         </DeathStar>
+        <PlanetA onClick={getNextPlanet}>
+          <PlanetA.Label>Next</PlanetA.Label>
+        </PlanetA>
       </Sky>
-      <button onClick={getNextPlanet}>Next Planet</button>
     </StyledTheme>
   );
 };
